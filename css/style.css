@@ -5,7 +5,6 @@ html{
     background-size: cover;
     background-position: center;
     color: white;
-
 }
  .menu ul{
      display: inline-block;
@@ -22,10 +21,7 @@ html{
         float: left;
         position: right;
         align: center;
-
-    }
-    
-    
+    }    
     form{
         text-align: center;
         margin: 20px;
@@ -36,7 +32,6 @@ html{
         line-height: 30px;
         height: 29px;
         text-decoration: aqua;
-
     }
     .img-container {
         text-align: center;
@@ -46,8 +41,7 @@ html{
         height: 400px;
         opacity: 18;
         border-image: 25px;
-        padding: 
-      }
+    }
     h2{
         text-align: center;
         text-decoration: greenyellow;
@@ -85,7 +79,6 @@ html{
          padding: 20px;
          background-color:green;
          font-size: 16px;
-
     }
     .h1{
         width: 80%;
