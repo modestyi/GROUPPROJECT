@@ -12,7 +12,7 @@ html{
      margin: 0px;
     }
    .menu ul li {
-        width: 180px;
+        width: 120px;
         list-style: none;
         margin: 0 20px;
         color: white;
@@ -38,6 +38,22 @@ html{
         text-decoration: aqua;
 
     }
+    .img-container {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        border-radius: 20px;
+        height: 400px;
+        opacity: 18;
+        border-image: 25px;
+        padding: 
+      }
+    h2{
+        text-align: center;
+        text-decoration: greenyellow;
+        text-shadow: lawngreen;
+        color: rgba(255, 0, 0, 0.822);
+    }
     div.box{
         text-align: center;
         opacity: .8;
@@ -45,10 +61,20 @@ html{
         border-radius: 30px;
 
     }
+    input{ font-size: 15px;
+        font-style: italic;
+        font-family: 'Times New Roman', Times, serif;
+        background-color:red;
+        background-image: url(../img/coin\ image2.jpg);
+        opacity: 10;
+        border-radius: 200px;
+        border-color: lime;
+        border-style: hidden;
+        border-width: 10px;
+        padding: 10px;
+        line-break: auto;
+    }
     .login-btn{
-        text-align:center ;
-        top:40px;
-        right:80px;
         text-decoration: none;
         color: white;
         border:white;
@@ -58,6 +84,7 @@ html{
          background-clip: content-box,border-box;
          padding: 20px;
          background-color:green;
+         font-size: 16px;
 
     }
     .h1{
