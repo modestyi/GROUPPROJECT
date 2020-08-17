@@ -22,7 +22,7 @@ html{
         position: right;
         align: center;
     }    
-    form{
+    .form{
         text-align: center;
         margin: 20px;
         width: -135px;
@@ -31,7 +31,8 @@ html{
         font-size: medium;
         line-height: 30px;
         height: 29px;
-        text-decoration: aqua;
+        background-color: aqua;
+        border: none;
     }
     .img-container {
         text-align: center;
@@ -42,31 +43,58 @@ html{
         opacity: 18;
         border-image: 25px;
     }
-    h2{
+    .h2{
         text-align: center;
         text-decoration: greenyellow;
         text-shadow: lawngreen;
         color: rgba(255, 0, 0, 0.822);
     }
-    div.box{
-        text-align: center;
-        opacity: .8;
-        border-top: 2px;
-        border-radius: 30px;
-
+         /*box tag*/
+         .box{
+             margin: auto;
+             margin-bottom: 80px;
+            height: 200px;
+            width: 200px;
+            background-color:rgba(0, 255, 255, 0.26) ;
+            padding-top:10px ;
+            padding-right:10px ;
+            padding-bottom:10px;
+            padding-left: 10px;
+            border-radius:8px ;
+    
+         }
+         /*box1 tag*/
+         .box1{
+             border: 15px solid;
+             margin: auto;
+             text-align: center;
+            height: 200px;
+            width: 200px;
+            background-color:rgba(0, 255, 255, 0.26) ;
+            padding-top:10px ;
+            padding-right:10px ;
+            padding-bottom:10px;
+            padding-left: 10px;
+            border-radius:8px ;
+    
+            
+         } 
+        .input{
+            margin: 10px auto;
+            border-style: none;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            border-bottom: solid;
+            background-color:rgba(30, 126, 204, 0.199);
+        
     }
-    input{ font-size: 15px;
+    .p{
+        font-size: 25px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: center;
         font-style: italic;
-        font-family: 'Times New Roman', Times, serif;
-        background-color:red;
-        background-image: url(../img/coin\ image2.jpg);
-        opacity: 10;
-        border-radius: 200px;
-        border-color: lime;
-        border-style: hidden;
-        border-width: 10px;
-        padding: 10px;
-        line-break: auto;
+        width: 1000px;
     }
     .login-btn{
         text-decoration: none;
@@ -80,15 +108,22 @@ html{
          background-color:green;
          font-size: 16px;
     }
-    .h1{
-        width: 80%;
-        height: 70%;
-        top: 25%;
-        left: 130%;
-        position: absolute;
-        color: white;
-    }
-    .app-text{
-        width: 50%;
-        float: left;
-    }
+}
+.login-btn{
+    text-decoration: none;
+    color: white;
+    border:white;
+    border-radius: 30px;
+     background-image:linear-gradient(#42455a,#42455a)radial-gradient(circle at top left,#fd00da,#19d7f8);
+     background-origin: border-box;
+     background-clip: content-box,border-box;
+     padding: 20px;
+     background-color:green;
+     font-size: 16px;
+}
+.app-text{
+    text-align: center;
+
+}
+
+    
