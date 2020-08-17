@@ -129,6 +129,8 @@ html{
 .h1{
     text-align: center;
 }
-
+a.active, a:hover{
+    background-color: rgba(0, 255, 255, 0.253);
+}
 
     
