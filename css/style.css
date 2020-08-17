@@ -9,6 +9,7 @@ html{
  .menu ul{
      display: inline-block;
      margin: 0px;
+     text-align: center;
     }
    .menu ul li {
         width: 120px;
@@ -125,5 +126,9 @@ html{
     text-align: center;
 
 }
+.h1{
+    text-align: center;
+}
+
 
     
