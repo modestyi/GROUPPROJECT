@@ -1,0 +1,16 @@
+.form{
+    text-align: center;
+    margin: 20px;
+    width: -135px;
+    text-shadow: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    line-height: 30px;
+    height: 29px;
+    background-color: aqua;
+    border: none;
+}
+body{
+    background-image: url(../img/register.jpg);
+    background-color: coral;
+}

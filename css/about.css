@@ -1,0 +1,22 @@
+body{
+    background-color: yellow;
+    background-image: url(../img/coin\ img.jpg\ 1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+h4{
+    font-size: 30px;
+    color: rgba(0, 0, 255, 0.644);
+}
+button{
+    background-color:rgb(64, 160, 224);
+    border: rgb(64, 160, 224);
+    border-radius: 20px;
+    margin: 10px auto;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}

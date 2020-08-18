@@ -1,10 +1,18 @@
 html{
     background-color: goldenrod;
-    background-image: url(../img/coin\ img.jpg);
+    background-image: url(../img/homepage.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     color: white;
+    opacity: 3;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    color:rgba(25, 0, 255, 0.774);
 }
  .menu ul{
      display: inline-block;
@@ -22,7 +30,12 @@ html{
         float: left;
         position: right;
         align: center;
+        text-decoration: none;
     }    
+    .menu ul li a{
+        text-decoration: none;
+        color: white;
+    }
     .form{
         text-align: center;
         margin: 20px;
@@ -35,14 +48,18 @@ html{
         background-color: aqua;
         border: none;
     }
-    .img-container {
-        text-align: center;
+    .box2 {
+        background-image: url;
         display: flex;
         justify-content: center;
-        border-radius: 20px;
-        height: 400px;
-        opacity: 18;
-        border-image: 25px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-bottom: 200px;
+        border: none;
+        border-bottom-left-radius: 100px;
+        border-top-right-radius: 100px;
+
     }
     .h2{
         text-align: center;
@@ -90,7 +107,7 @@ html{
             background-color:rgba(30, 126, 204, 0.199);
         
     }
-    .p{
+    h4{
         font-size: 25px;
         font-family: Georgia, 'Times New Roman', Times, serif;
         text-align: center;
@@ -107,7 +124,7 @@ html{
          background-clip: content-box,border-box;
          padding: 20px;
          background-color:green;
-         font-size: 16px;
+         font-size: 35px;
     }
 }
 .login-btn{
@@ -132,6 +149,9 @@ html{
 a.active, a:hover{
     background-color: aqua;
     opacity: .8;
+}
+h3{
+    font-size: 37px;
 }
 
     
